@@ -63,7 +63,7 @@ public final class Main extends JavaPlugin implements Listener {
             // 追加した情報で再設定
             firework.setFireworkMeta(fireworkMeta);
             Path path = Path.of("firework.txt");
-            Files.writeString(path, "花火があがったよー");
+            Files.writeString(path, "花火があがったよー!");
             player.sendMessage(Files.readString(path));
         }
         count++;
